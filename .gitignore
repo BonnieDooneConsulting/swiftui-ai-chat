@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Go
+server/server
+server/bin/
+*.test
+*.out
+coverage.*
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
